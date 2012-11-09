@@ -1,0 +1,217 @@
+body {
+	font-family:"lucida sans";
+	font-weight:bold;
+}
+
+div.wrapper {
+	margin:34px auto 0px auto;
+	width:981px;
+}
+
+div.wrapper ul li a {
+	font-size:12px;
+	text-decoration:none;
+	color:black;
+}
+
+div.wrapper nav ul{
+	font-size:12px;
+	padding:0px;
+	display:block;
+}
+
+div.wrapper ul {
+	list-style:none;
+}
+
+div.wrapper h3 {
+	font-size:9px;
+}
+
+div.wrapper h4 {
+	font-size:13px;
+}
+
+/***** HEADER ******************************************************************/
+
+header {
+	height:34px;
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	overflow:auto;
+	border-bottom: 1px solid #133783;
+	-webkit-box-shadow: 1px 1px 4px #222; /* Safari and Chrome */
+	box-shadow: 1px 1px 4px #222;
+	background:#3B5998;
+}
+
+header ul {
+	margin:0px;
+	padding:0px;
+}
+
+header div.wrapper ul a {
+	font-family:tahoma;
+	font-weight:bold;
+	font-size:16pt;
+	color:white;
+	text-decoration:none;
+}
+
+header ul li {
+	float:left;
+}
+
+header div.wrapper {
+	padding:0px;
+	margin-top:5px;
+}
+
+div.wrapper input[type=text] {
+	width:300px;
+}
+
+/***** NAV ******************************************************************/
+
+nav {
+	float:left;
+	padding:0px;
+	margin-top:15px;
+}
+
+div.profile {
+	width:170px;
+	overflow:auto;
+}
+nav h3 {
+	color:#99A1AE;
+}
+
+li.current a {
+	color:#333;
+	font-weight:bold;
+}
+
+nav ul a {
+	overflow:auto;
+	display:block;
+}
+
+nav ul li {
+	margin:5px;
+}
+
+nav i {
+	margin-top:0px;
+}
+/***** WRAPPER ******************************************************************/
+
+div#feed {
+	border:1px solid #99A1AE;
+	padding-top:30px;
+	margin-left:200px;
+}
+
+div#feed h3 {
+	color:#99A1AE;
+	border-top:1px solid #99A1AE;
+	border-bottom:1px solid #99A1AE;
+	margin:0px;
+	padding:5px;
+}
+
+div img {
+	height:81px;
+	width:81px;
+	display:block;
+	float:left;
+	margin:5px 5px 5px 0px;
+	padding:0px;
+}
+
+div#feed img {
+	padding-bottom:60px;
+	margin-right:10px;
+}
+
+
+div.meta {
+	color:#3B5998;
+}
+
+div.meta a {
+	text-decoration:none;
+	color:#3B5998;
+}
+
+h4 a {
+	text-decoration:none;
+	color:#3B5998;
+	width:165px;
+}
+
+div.post {
+	margin:10px;
+	border-top:1px solid #99A1AE;;
+	padding-top:8px;
+}
+
+div.first-post {
+	border:none;
+}
+
+/***** FOOTER ******************************************************************/
+
+footer {
+	font-size:12px;
+	padding-left:200px;
+}
+
+footer a {
+	color:#3B5998;
+	text-decoration:none;
+}
+
+/***** ICON STYLES ******************************************************************/
+i {
+	background:url(images/fb-icon-set.png) no-repeat;
+	display:inline-block;
+	height:16px;
+	width:16px;
+	margin:5px;
+	float:left;
+}
+
+i.requests {
+	background-position:-35px -115px;
+}
+
+header i.messages {
+	background-position:-35px -11px;
+}
+
+i.messages {
+	background-position:-52px -426px;
+}
+
+i.notifications {
+	background-position:-37px -80px;
+}
+
+i.news {
+	background-position:-49px -559px;
+}
+
+i.events {
+	background-position:-53px -576px;
+}
+
+i.photos {
+	background-position:-66px -559px;
+}
+
+i.music {
+	background-position:-172px -576px;
+}
